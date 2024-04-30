@@ -1,5 +1,6 @@
-import random
 
+#this is the start of the slot machine code 
+import random
 MAX_LINES = 3
 MAX_BET = 100
 MIN_BET = 1

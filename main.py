@@ -23,7 +23,7 @@ symbol_value = {
 def check_winnings(columns, lines, bet, values):
     for line in range(lines):
         break
-#-------- to complete 
+#-------- to complete in the following days
 
 def get_slot_machine_spin(rows, cols, symbols):
     all_symbols =[]
@@ -95,9 +95,7 @@ def get_bet():
         else:
             print("Please enter an amount number.")
     return amount
-        
-                
-        
+         
 def main():
     balance = deposit()
     lines = get_number_of_lines()
@@ -109,7 +107,6 @@ def main():
         else:
             break
              
-    
     print(f"You are betting ${bet} on {lines} lines. Total bet is equal to: ${total_bet}")
     
     slots = get_slot_machine_spin(ROWS, COLS, symbol_count)
